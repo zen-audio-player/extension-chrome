@@ -1,7 +1,7 @@
 {
   "name":           "Zen YouTube Audio Player utils",
   "version":        "0.0.1",
-  "description":    "A simple Google Chrome extension to utilize zen-youtube-audio-player by redirecting any requests to YouTube video URLs that contain &zen or /zen.",
+  "description":    "A simple Google Chrome extension to utilize zen-youtube-audio-player by redirecting YouTube video URLs that contain &zen or /zen.",
   "background": {
     "persistent": true,
     "scripts": ["background.js"]
