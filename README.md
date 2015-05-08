@@ -5,7 +5,7 @@ This code is based on [dont-watch-later](https://github.com/shakeelmohamed/dont-
 
 ## Why did you do this?
 
-* To make using zen-youtube-audio-player](https://github.com/shakeelmohamed/zen-youtube-audio-player) a little bit easier
+* To make using [zen-youtube-audio-player](https://github.com/shakeelmohamed/zen-youtube-audio-player) a little bit easier
 
 # Contact
 
