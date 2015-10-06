@@ -1,15 +1,16 @@
-# Chrome extension for Zen YouTube Audio Player
-A simple Google Chrome extension to utilize [Zen YouTube Audio Player](https://github.com/shakeelmohamed/zen-youtube-audio-player) by redirecting any requests to YouTube video URLs that contain `&zen` or `/zen`.
+# Chrome extension for Zen Audio Player
+A simple Google Chrome extension to redirect YouTube videos to [Zen Audio Player](http://zen-audio-player.github.io/).
+
+## Usage
+
+* Install from the [Google Chrome Webstore](https://chrome.google.com/webstore/detail/zen-youtube-audio-player/jlkomkpeedajclllhhfkloddbihmcjlm?hl=en-US).
+* Add `&zen` or `/zen` to any YouTube URL. Ex: `https://www.youtube.com/watch?v=koJv-j1usoI/zen`
+
+## Why was this created?
+
+* To make using [Zen Audio Player](http://zen-audio-player.github.io/) a little bit easier
 
 This code is based on [dont-watch-later](https://github.com/shakeelmohamed/dont-watch-later): a simple Google Chrome extension to disable autoplay for videos from your YouTube playlists.
-
-## Why did you do this?
-
-* To make using [zen-youtube-audio-player](https://github.com/shakeelmohamed/zen-youtube-audio-player) a little bit easier
-
-# Contact
-
-Find me on Twitter: [@_Shakeel](http://twitter.com/_shakeel)
 
 # License
 

@@ -27,7 +27,7 @@ function removeURLParameter(url, parameter) {
     }
 }
 
-var SERVICE_URL = "http://shakeelmohamed.com/zen-youtube-audio-player";
+var SERVICE_URL = "http://zen-audio-player.github.io/";
 
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
@@ -35,11 +35,13 @@ chrome.webRequest.onBeforeRequest.addListener(
             if (details.url.indexOf("&zen") !== -1 || details.url.indexOf("/zen") !== -1) {
                 var zenUrl = details.url;
 
-                // Try to remove zen from the URL, it doesn't really need to happen though
+                // Try to remove zen from the URL, because we can...
+                // &zen case
                 zenUrl = removeURLParameter(details.url, "zen");
+                // /zen case
                 zenUrl = zenUrl.replace("/zen", "");
 
-                // Setup the zen-youtube-audio-player link
+                // Build the Zen Audio Player link
                 zenUrl = SERVICE_URL + "?v=" + zenUrl;
                 return {redirectUrl: zenUrl};
             }
