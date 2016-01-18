@@ -1,5 +1,5 @@
 {
-  "name":           "Zen Audio Player redirector",
+  "name":           "Zen Audio Player",
   "version":        "0.1.1",
   "description":    "Listen to YouTube videos on Zen Audio Player by adding '&zen' or '/zen' to the URL.",
   "background": {
