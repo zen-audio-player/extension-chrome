@@ -15,6 +15,6 @@
     "*://*.youtube.com/*",
     "tabs"
   ],
-  "omnibox": { "keyword" : "zap" },
+  "omnibox": { "keyword" : "zen" },
   "manifest_version": 2
 }
