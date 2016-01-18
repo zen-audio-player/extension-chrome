@@ -1,10 +1,10 @@
 {
-  "name":           "Zen Audio Player redirector",
+  "name":           "Zen Audio Player",
   "version":        "0.1.1",
-  "description":    "Redirects YouTube videos to Zen Audio Player when adding '&zen' or '/zen' to the end of a URL.",
+  "description":    "Listen to YouTube videos on Zen Audio Player by adding '&zen' or '/zen' to the URL.",
   "background": {
     "persistent": true,
-    "scripts": ["background.js"]
+    "scripts": [ "background.js", "search-extension.js"]
   },
   "icons": {
     "128": "zen-audio-player-128.png"
@@ -12,7 +12,9 @@
   "permissions":    [
     "webRequest",
     "webRequestBlocking",
-    "*://*.youtube.com/*"
+    "*://*.youtube.com/*",
+    "tabs"
   ],
+  "omnibox": { "keyword" : "zap" },
   "manifest_version": 2
 }
