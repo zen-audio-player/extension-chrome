@@ -13,5 +13,5 @@ function navigate(url) {
 }
 
 chrome.omnibox.onInputEntered.addListener(function(text) {
-    navigate("https://zen-audio-player.github.io?v=" + encodeURIComponent(text) )
+    navigate("https://zenplayer.audio?v=" + encodeURIComponent(text) )
 });
