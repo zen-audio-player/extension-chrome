@@ -16,5 +16,15 @@
     "tabs"
   ],
   "omnibox": { "keyword" : "zen" },
-  "manifest_version": 2
+  "manifest_version": 2,
+  "commands": {
+    "zap-play-pause": {
+      "suggested_key": {
+        "default": "MediaPlayPause",
+        "mac": "MediaPlayPause"
+      },
+      "description": "Zen Audio Player play/pause",
+      "global": true
+    }
+  }
 }

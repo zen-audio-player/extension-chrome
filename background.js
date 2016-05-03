@@ -53,3 +53,10 @@ chrome.webRequest.onBeforeRequest.addListener(
     },
     ["blocking"]
 );
+
+chrome.commands.onCommand.addListener(function(command) {
+    console.log('Command:', command);
+    if (command === "zap-play-pause") {
+        // TODO: figure out how to find the tab with zenplayer.audio running, then invoke ZenPlayer.pause() or ZenPlayer.play()
+    }
+});
