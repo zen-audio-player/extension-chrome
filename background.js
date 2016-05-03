@@ -27,7 +27,7 @@ function removeURLParameter(url, parameter) {
     }
 }
 
-var SERVICE_URL = "http://zen-audio-player.github.io/";
+var SERVICE_URL = "https://zenplayer.audio/";
 
 chrome.webRequest.onBeforeRequest.addListener(
     function(details) {
