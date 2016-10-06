@@ -1,3 +1,5 @@
+![Zen Audio Player](./zen-audio-player-128.png)
+
 # Chrome extension for Zen Audio Player
 A simple Google Chrome extension to redirect YouTube videos to [Zen Audio Player](http://zenplayer.audio/).
 
